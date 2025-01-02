@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\projekt_bd_wypozyczalnia_gier.props" />
+</Project>
