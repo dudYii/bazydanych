@@ -1,0 +1,31 @@
+@model IEnumerable<projekt_bd_wypozyczalnia_gier.Models.Rental>
+
+<h2>Lista Wypo¿yczeñ</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Id Klienta</th>
+            <th>Id Gry</th>
+            <th>Data Wypo¿yczenia</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rental in Model)
+        {
+            <tr>
+                <td>@rental.Id</td>
+                <td>@rental.CustomerId</td>
+                <td>@rental.GameId</td>
+                <td>@rental.RentalDate</td>
+                <td>
+                    <a href="/Rental/Edit/@rental.Id">Edytuj</a> |
+                    <a href="/Rental/Details/@rental.Id">Szczegó³y</a> |
+                    <a href="/Rental/Delete/@rental.Id">Usuñ</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Rental/Create">Dodaj wypo¿yczenie</a>

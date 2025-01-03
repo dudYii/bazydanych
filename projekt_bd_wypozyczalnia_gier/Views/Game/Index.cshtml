@@ -1,0 +1,31 @@
+@model IEnumerable<projekt_bd_wypozyczalnia_gier.Models.Game>
+
+<h2>Lista Gier</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Tytu³</th>
+            <th>Gatunek</th>
+            <th>Cena</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var game in Model)
+        {
+            <tr>
+                <td>@game.Id</td>
+                <td>@game.Title</td>
+                <td>@game.Genre</td>
+                <td>@game.Price</td>
+                <td>
+                    <a href="/Game/Edit/@game.Id">Edytuj</a> |
+                    <a href="/Game/Details/@game.Id">Szczegó³y</a> |
+                    <a href="/Game/Delete/@game.Id">Usuñ</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Game/Create">Dodaj grê</a>
