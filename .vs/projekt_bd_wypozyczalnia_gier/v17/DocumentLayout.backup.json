@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\views\\game\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\views\\rental\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\views\\rental\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\views\\customer\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\views\\customer\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\views\\game\\create.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\views\\game\\create.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\views\\game\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\views\\game\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\models\\rentaldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\models\\rentaldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|c:\\users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5797E495-8142-4D26-975F-206270572161}|projekt_bd_wypozyczalnia_gier\\projekt_bd_wypozyczalnia_gier.csproj|solutionrelative:projekt_bd_wypozyczalnia_gier\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Index.cshtml",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Index.cshtml",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:14:48.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:14:08.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Rental\\Index.cshtml",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Views\\Rental\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Rental\\Index.cshtml",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Views\\Rental\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:13:05.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:12:49.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Edit.cshtml",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Edit.cshtml",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:12:39.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Create.cshtml",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Create.cshtml",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:12:13.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Create.cshtml",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Create.cshtml",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:12:28.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Program.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Program.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Program.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T14:28:25.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\appsettings.json",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\appsettings.json",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\appsettings.json",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-02T13:08:22.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Index.cshtml",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\Game\\Index.cshtml",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Views\\Game\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:09:51.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T15:20:43.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T15:17:09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\Game.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T14:24:27.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Controllers\\GameController.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T15:13:19.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:19:41.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T15:19:05.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RentalController.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Controllers\\RentalController.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Controllers\\RentalController.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Controllers\\RentalController.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Controllers\\RentalController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T15:21:35.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\Customer.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T14:35:39.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\Rental.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Models\\Rental.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\Rental.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Models\\Rental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T14:36:21.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RentalDetails.cs",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\RentalDetails.cs",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Models\\RentalDetails.cs",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Models\\RentalDetails.cs",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Models\\RentalDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T14:39:41.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "projekt_bd_wypozyczalnia_gier\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\kubdu\\source\\repos\\bazy_danych\\projekt_bd_wypozyczalnia_gier\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "projekt_bd_wypozyczalnia_gier\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:08:24.602Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

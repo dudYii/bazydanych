@@ -1,14 +1,27 @@
-@model IEnumerable<projekt_bd_wypozyczalnia_gier.Models.Game>
-
+﻿@model IEnumerable<projekt_bd_wypozyczalnia_gier.Models.Game>
+<style>
+    th, td {
+        border: 1px solid black;
+        text-align: center;
+    }
+    thead, tbody {
+        border: 1px solid black;
+    }
+    table {
+        width: 100%;
+    }
+</style>
 <h2>Lista Gier</h2>
 <table>
     <thead>
         <tr>
             <th>Id</th>
-            <th>Tytu�</th>
-            <th>Gatunek</th>
+            <th>Tytuł</th>
+            <th>Opis</th>
             <th>Cena</th>
-            <th>Akcje</th>
+            <th>Platforma</th>
+            <th>Dostępność</th>
+            <th>Działanie</th>
         </tr>
     </thead>
     <tbody>
@@ -17,15 +30,18 @@
             <tr>
                 <td>@game.Id</td>
                 <td>@game.Title</td>
-                <td>@game.Genre</td>
+                <td>@game.Description</td>
                 <td>@game.Price</td>
+                <td>@game.Platform</td>
+                <td>@game.Available</td>
                 <td>
                     <a href="/Game/Edit/@game.Id">Edytuj</a> |
-                    <a href="/Game/Details/@game.Id">Szczeg�y</a> |
-                    <a href="/Game/Delete/@game.Id">Usu�</a>
+                    <form method="post" asp-action="DeleteConfirmed" asp-route-id="@game.Id" style="display:inline;">
+                        <button type="submit">Usuń</button>
+                    </form>
                 </td>
             </tr>
         }
     </tbody>
 </table>
-<a href="/Game/Create">Dodaj gr�</a>
+<a href="/Game/Create">Dodaj grę</a>

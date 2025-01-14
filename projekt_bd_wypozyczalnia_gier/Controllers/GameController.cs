@@ -15,7 +15,8 @@ namespace projekt_bd_wypozyczalnia_gier.Controllers
 
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Games.ToListAsync());
+            var games = await _context.Games.ToListAsync();
+            return View(games);
         }
 
         public async Task<IActionResult> Details(int? id)
@@ -39,10 +40,9 @@ namespace projekt_bd_wypozyczalnia_gier.Controllers
         {
             return View();
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Description,Price,Platform,Available")] Game game)
+        public async Task<IActionResult> Create([Bind("Title,Description,Price,Platform,Available")] Game game)
         {
             if (ModelState.IsValid)
             {
@@ -100,33 +100,20 @@ namespace projekt_bd_wypozyczalnia_gier.Controllers
             return View(game);
         }
 
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
 
-            var game = await _context.Games
-                .FirstOrDefaultAsync(m => m.Id == id);
+        [HttpPost, ActionName("DeleteConfirmed")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var game = await _context.Games.FindAsync(id);
             if (game == null)
             {
                 return NotFound();
             }
 
-            return View(game);
-        }
-
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var game = await _context.Games.FindAsync(id);
             _context.Games.Remove(game);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
         private bool GameExists(int id)
         {
             return _context.Games.Any(e => e.Id == id);

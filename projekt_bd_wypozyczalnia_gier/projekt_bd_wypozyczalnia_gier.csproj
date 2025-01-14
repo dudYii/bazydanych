@@ -8,22 +8,24 @@
 
   <ItemGroup>
     <Content Remove="Views\Customer\Index.cshtml" />
-    <Content Remove="Views\Game\Create.cshtml" />
-    <Content Remove="Views\Game\Edit.cshtml" />
-    <Content Remove="Views\Game\Index.cshtml" />
     <Content Remove="Views\Rental\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Views\Customer\Index.cshtml" />
-    <None Include="Views\Game\Create.cshtml" />
-    <None Include="Views\Game\Edit.cshtml" />
-    <None Include="Views\Game\Index.cshtml" />
     <None Include="Views\Rental\Index.cshtml" />
   </ItemGroup>
 

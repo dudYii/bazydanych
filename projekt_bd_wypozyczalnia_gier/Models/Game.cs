@@ -9,6 +9,5 @@
         public string Platform { get; set; } 
         public bool Available { get; set; } 
 
-        public ICollection<RentalDetails> RentalDetails { get; set; }
     }
 }
