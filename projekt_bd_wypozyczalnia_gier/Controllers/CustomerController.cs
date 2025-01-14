@@ -15,7 +15,8 @@ namespace projekt_bd_wypozyczalnia_gier.Controllers
 
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Customers.ToListAsync());
+            var customers = await _context.Customers.ToListAsync();
+            return View(customers);
         }
 
         public async Task<IActionResult> Details(int? id)

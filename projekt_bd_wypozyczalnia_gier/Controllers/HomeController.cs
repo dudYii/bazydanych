@@ -1,21 +1,38 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using projekt_bd_wypozyczalnia_gier.Models;
 
 namespace projekt_bd_wypozyczalnia_gier.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
-            _logger = logger;
+            _context = context;
+            _userManager = userManager;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var userId = HttpContext.Session.GetString("UserId");
+            var userRole = HttpContext.Session.GetString("UserRole");
+
+            if (!string.IsNullOrEmpty(userId) && !string.IsNullOrEmpty(userRole))
+            {
+                ApplicationUser user = await _userManager.FindByIdAsync(userId);
+
+                if (userRole == "Admin")
+                {
+                    return RedirectToAction("Index", "Game");
+                }
+            }
+            var gamesWithoutUser = await _context.Games.ToListAsync();
+            return View(gamesWithoutUser);
         }
 
         public IActionResult Privacy()

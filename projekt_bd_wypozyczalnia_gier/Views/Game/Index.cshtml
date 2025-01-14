@@ -33,7 +33,7 @@
                 <td>@game.Description</td>
                 <td>@game.Price</td>
                 <td>@game.Platform</td>
-                <td>@game.Available</td>
+                <td>@(game.Available ? "Tak" : "Nie")</td>
                 <td>
                     <a href="/Game/Edit/@game.Id">Edytuj</a> |
                     <form method="post" asp-action="DeleteConfirmed" asp-route-id="@game.Id" style="display:inline;">

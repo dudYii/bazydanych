@@ -1,33 +1,45 @@
 ﻿@model IEnumerable<projekt_bd_wypozyczalnia_gier.Models.Game>
+<style>
+    th, td {
+        border: 1px solid black;
+        text-align: center;
+    }
 
-<h1>Lista Gier</h1>
+    thead, tbody {
+        border: 1px solid black;
+    }
 
-<table class="table">
+    table {
+        width: 100%;
+    }
+</style>
+<h2>Lista Gier</h2>
+<table>
     <thead>
         <tr>
-            <th>Id</th>
-            <th>Nazwa</th>
+            <th>Tytuł</th>
             <th>Opis</th>
+            <th>Cena</th>
             <th>Platforma</th>
             <th>Dostępność</th>
-            <th>Akcje</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var game in Model)
         {
             <tr>
-                <td>@game.Id</td>
                 <td>@game.Title</td>
                 <td>@game.Description</td>
+                <td>@game.Price</td>
                 <td>@game.Platform</td>
                 <td>@(game.Available ? "Tak" : "Nie")</td>
-                <td>
-                    <a asp-controller="Game" asp-action="Details" asp-route-id="@game.Id">Szczegóły</a> |
-                    <a asp-controller="Game" asp-action="Edit" asp-route-id="@game.Id">Edytuj</a> |
-                    <a asp-controller="Game" asp-action="Delete" asp-route-id="@game.Id">Usuń</a>
-                </td>
             </tr>
         }
     </tbody>
 </table>
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
