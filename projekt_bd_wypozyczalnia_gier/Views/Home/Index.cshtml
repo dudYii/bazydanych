@@ -1,19 +1,32 @@
 ﻿@model IEnumerable<projekt_bd_wypozyczalnia_gier.Models.Game>
 <style>
     th, td {
-        border: 1px solid black;
+        border: 3px solid black;
         text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: white;
     }
-
     thead, tbody {
-        border: 1px solid black;
+        border: 3px solid black;
     }
-
     table {
         width: 100%;
     }
+
+    body {
+        background-color: mediumpurple;
+    }
 </style>
-<h2>Lista Gier</h2>
+<h1 style="text-align: center;">Wypożyczalnia gier - Giercomator</h1>
+<div style="display: flex; justify-content: center;">
+    <img style="padding: 20px;" src="https://media-cdn.tripadvisor.com/media/photo-s/17/75/a0/e1/lokal-z-zewnatrz.jpg" />
+    <img style="width: 40%; height: 40%; padding: 20px;" src="https://m.media-amazon.com/images/I/81zT12-7vdL._AC_UF1000,1000_QL80_.jpg" />
+</div>
+<div style="text-align: center;">
+    Nie masz co robić? Chcesz zagrać w jakąś grę? Przyjdź do nas!
+</div>
+
+<h1 style="text-align: center;">Lista Gier</h1>
 <table>
     <thead>
         <tr>
@@ -36,7 +49,7 @@
             </tr>
         }
     </tbody>
-</table>
+</table><br/>
 @if (TempData["SuccessMessage"] != null)
 {
     <div class="alert alert-success">

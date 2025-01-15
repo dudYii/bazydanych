@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projekt_bd_wypozyczalnia_gier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac66e232d5dff5c7b715e63f76783bb84ff6304b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5180bac4ea7e1c3e03d1bfd47a2214d0b55a4121")]
 [assembly: System.Reflection.AssemblyProductAttribute("projekt_bd_wypozyczalnia_gier")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projekt_bd_wypozyczalnia_gier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,6 @@ namespace projekt_bd_wypozyczalnia_gier.Models
 
         public DbSet<Game> Games { get; set; }
         public DbSet<Customer> Customers { get; set; }
-        public DbSet<Rental> Rentals { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

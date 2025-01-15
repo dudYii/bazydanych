@@ -1,7 +1,38 @@
 ﻿@model projekt_bd_wypozyczalnia_gier.Models.Game
+<style>
+    th, td {
+        border: 3px solid black;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: white;
+    }
 
+    thead, tbody {
+        border: 3px solid black;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    body {
+        background-color: mediumpurple;
+    }
+
+    input {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    label {
+        display: inline-block;
+        width: 100px;
+        margin: 5px;
+    }
+</style>
+<div style="text-align: center;">
 <h2>Dodaj Grę</h2>
-<form asp-action="Create" method="post">
+    <form asp-action="Create" method="post" style="font-size: 30px; padding: 5px;">
     <label for="Title">Tytuł:</label>
     <input type="text" id="Title" name="Title" asp-for="Title" />
     <br />
@@ -14,9 +45,10 @@
     <label for="Platform">Platforma:</label>
     <input type="text" id="Platform" name="Platform" asp-for="Platform" />
     <br />
-    <label for="Available">Dostępność:</label>
+    <label style="margin-right: 50px;" for="Available">Dostępność:</label>
     <input type="checkbox" id="Available" name="Available" asp-for="Available" />
     <br />
     <button type="submit">Zapisz</button>
 </form>
-<a href="/Game">Powrót</a>
+<a href="/Game" style="text-decoration: none; color: white; font-size: 20px;">Powrót</a>
+</div>

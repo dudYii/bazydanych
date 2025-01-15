@@ -7,16 +7,16 @@
     @if (SignInManager.IsSignedIn(User))
     {
         <li class="nav-item">
-            <a class="nav-link" href="@Url.Action("Logout", "Account")">Logout</a>
+            <a class="nav-link" href="@Url.Action("Logout", "Account")" style="font-size: 30px; color: white;">Logout</a>
         </li>
     }
     else
     {
         <li class="nav-item">
-            <a class="nav-link" href="@Url.Action("Login", "Account")">Login</a>
+            <a class="nav-link" href="@Url.Action("Login", "Account")" style="font-size: 30px; color: white;">Login</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="@Url.Action("Register", "Account")">Register</a>
+            <a class="nav-link" href="@Url.Action("Register", "Account")" style="font-size: 30px; color: white;">Register</a>
         </li>
     }
 </ul>

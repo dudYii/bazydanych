@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Customer\Index.cshtml" />
     <Content Remove="Views\Rental\Index.cshtml" />
   </ItemGroup>
 
@@ -27,7 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Views\Customer\Index.cshtml" />
     <None Include="Views\Rental\Index.cshtml" />
   </ItemGroup>
 

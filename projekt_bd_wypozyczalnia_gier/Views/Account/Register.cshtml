@@ -1,8 +1,33 @@
 ﻿@model projekt_bd_wypozyczalnia_gier.Models.RegisterViewModel
+<style>
+    th, td {
+        border: 3px solid black;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: white;
+    }
 
+    thead, tbody {
+        border: 3px solid black;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    body {
+        background-color: mediumpurple;
+    }
+    label {
+        display: inline-block;
+        width: 100px;
+        margin: 5px;
+    }
+</style>
+<div style="text-align: center;">
 <h2>Rejestracja</h2>
 
-<form asp-action="Register" method="post">
+<form asp-action="Register" method="post" style="font-size: 25px; padding: 5px;">
     <div>
         <label for="FirstName">Imię</label>
         <input type="text" id="FirstName" asp-for="FirstName" />
@@ -19,7 +44,7 @@
         <span asp-validation-for="Email"></span>
     </div>
     <div>
-        <label for="PhoneNumber">Numer telefonu</label>
+        <label for="PhoneNumber">Telefon</label>
         <input type="text" id="PhoneNumber" asp-for="PhoneNumber" />
         <span asp-validation-for="PhoneNumber"></span>
     </div>
@@ -35,7 +60,7 @@
     </div>
     <button type="submit">Zarejestruj</button>
 </form>
-
+</div>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
